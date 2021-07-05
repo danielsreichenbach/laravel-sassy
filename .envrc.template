@@ -1,0 +1,6 @@
+# To facilitate local testing this allows you to export API connection settings
+# when using direnv.
+
+export RECURLY_SUBDOMAIN=""
+export RECURLY_API_KEY=""
+export RECURLY_PUBLIC_KEY=""

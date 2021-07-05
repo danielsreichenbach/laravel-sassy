@@ -1,0 +1,23 @@
+# Add directories, files, and symbolic links which should not be stored within
+# the repository here.
+
+# Helper files requiring special attention
+!.gitignore
+!.gitattributes
+
+# Project files
+/.idea/
+/.vscode/
+
+# OS specific temporary files
+.DS_Store
+Thumbs.db
+
+# Generated / downloaded files
+/vendor
+composer.lock
+/phpunit.xml
+.phpunit.result.cache
+
+# Local configuration
+/.envrc
